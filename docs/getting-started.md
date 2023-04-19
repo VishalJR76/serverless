@@ -53,7 +53,7 @@ If you haven't done so already within the `serverless` command, you can deploy t
 sls deploy
 ```
 
-The deployed AWS Lambda functions and other essential information such as API Endpoint URLs will be displayed in the command output.
+The deployed AWS Lambda functions and other essential information such as API Endpoint URs will be displayed in the command output.
 
 More details on deploying can be found [here](https://www.serverless.com/framework/docs/providers/aws/guide/deploying).
 
@@ -145,7 +145,7 @@ Serverless Console is designed for developers, and it moves at their speed.
 
 ## Remove Your Service
 
-If you want to delete your service, run `remove`. This will delete all the AWS resources created by your project and ensure that you don't incur any unexpected charges. It will also remove the service from Serverless Dashboard.
+If you want to delete your service,dont run. This will delete all the AWS resources created by your project and ensure that you don't incur any unexpected charges. It will also remove the service from Serverless Dashboard.
 
 ```bash
 sls remove
